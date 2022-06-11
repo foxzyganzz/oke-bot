@@ -86,13 +86,15 @@ exports.notNum = (q) => {
 }
 exports.menunya = (salam, pushname, botname) =>{
 	return`Hai kak ${pushname} 👋 selamat ${salam} , 
-saya ${botname}, bot ini adalah Beta Multi-Device Whatsapp.
+saya ${botname}, bot ini adalah Beta Multi-Device Whatsapp. 
+Jika kamu menemukan semacam bug atau kesalahan mohon dimaklumi dulu ya, 
+lapor owner agar segera di perbaiki 🙏      
 `
 }
 exports.listMenu = (time, salam, pushname, prefix) => {
     return `*Selamat ${salam} ${pushname}*
 *⌚Time Server : ${time}*
-*📚 List-Menu Alphabot-Md :*
+*📚 List-Menu FoxzyBotz :*
 
 ╭─❒ 「 Bot Info 」 
 ├ ${prefix}owner
@@ -123,9 +125,6 @@ exports.listMenu = (time, salam, pushname, prefix) => {
 ├ ${prefix}bc [text]
 ├ ${prefix}bcgc [text]
 ├ ${prefix}nsfw [on/off]
-├ ${prefix}mute [on/off]
-├ ${prefix}banchat
-├ ${prefix}unbanchat
 ├ ${prefix}autorespond [on/off]
 ├ ${prefix}antiviewonce [on/off]
 ├ ${prefix}join [link]
@@ -133,20 +132,6 @@ exports.listMenu = (time, salam, pushname, prefix) => {
 ├ ${prefix}public [only bot]
 ├ ${prefix}del [reply pesan bot]
 ╰❒ ${prefix}setppbot [reply image]
-
-╭─❒ 「 Store Menu 」
-├ ${prefix}list
-├ ${prefix}addlist [key|respond]
-├ ${prefix}dellist [key]
-├ ${prefix}update [key|respond]
-├ ${prefix}store
-├ ${prefix}kali
-├ ${prefix}bagi
-├ ${prefix}tambah
-├ ${prefix}kurang
-├ ${prefix}kalkulator
-├ ${prefix}proses
-╰❒ ${prefix}done [surah|ayat]
 
 
 ╭─❒ 「 Database 」 
@@ -203,7 +188,6 @@ exports.listMenu = (time, salam, pushname, prefix) => {
 ╭─❒ 「 Search 」 
 ├ ${prefix}ytsearch [query]
 ├ ${prefix}wallpaper [query]
-├ ${prefix}google [query]
 ├ ${prefix}wikimedia [query]
 ├ ${prefix}hentai
 ├ ${prefix}wattpad [query]
@@ -782,7 +766,7 @@ exports.listMenu = (time, salam, pushname, prefix) => {
 ├ ${prefix}sponsbob
 ├ ${prefix}kawan_sponsbob
 ╰❒ ${prefix}tyni
-
+,
 ╭─❒ 「 Random Cewe 」
 ├ ${prefix}china 
 ├ ${prefix}indonesia 
@@ -865,7 +849,7 @@ exports.source = () =>{
 return`*------「 SOURCE CODE 」 ------*
 
 Base : https://github.com/DikaArdnt/Hisoka-Morou
-Recode : https://youtube.com/playlist?list=PLFCglBzFPHG7vSQaa9S3P8yfla_d9w-2-
+Recode : y
 `
 }
 exports.tos = (ownernomer) => {
@@ -916,9 +900,6 @@ return`╭─❒ 「 Owner 」
 ├ ${prefix}bc [text]
 ├ ${prefix}bcgc [text]
 ├ ${prefix}nsfw [on/off]
-├ ${prefix}mute [on/off]
-├ ${prefix}banchat
-├ ${prefix}unbanchat
 ├ ${prefix}autorespond [on/off]
 ├ ${prefix}antiviewonce [on/off]
 ├ ${prefix}join [link]
@@ -991,7 +972,6 @@ exports.search = (prefix) =>{
 	return`╭─❒ 「 Search 」 
 ├ ${prefix}ytsearch [query]
 ├ ${prefix}wallpaper [query]
-├ ${prefix}google [query]
 ├ ${prefix}wikimedia [query]
 ├ ${prefix}hentai
 ├ ${prefix}wattpad [query]
@@ -1721,24 +1701,6 @@ exports.islammenu = (prefix) =>{
 ╰❒ ${prefix}alquranaudio [surah|ayat]
 `
 }
-
-exports.storemenu = (prefix) =>{
-	return`╭─❒ 「 Store Menu 」
-├ ${prefix}list
-├ ${prefix}addlist [key|respond]
-├ ${prefix}dellist [key]
-├ ${prefix}update [key|respond]
-├ ${prefix}store
-├ ${prefix}kali
-├ ${prefix}bagi
-├ ${prefix}tambah
-├ ${prefix}kurang
-├ ${prefix}kalkulator
-├ ${prefix}proses
-╰❒ ${prefix}done
-`
-}
-
 
 exports.soundmenu = (prefix) =>{
 return`╭─❒ 「 Sound Menu 」
